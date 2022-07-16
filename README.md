@@ -1,1 +1,1 @@
-# Page header
+# static website boilerplate
