@@ -1,3 +1,5 @@
+import '../scss/index.scss'
+
 // WebFontoader
 import WebFont from 'webfontloader';
 

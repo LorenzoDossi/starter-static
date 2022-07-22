@@ -9013,6 +9013,19 @@ module.exports = stubFalse;
 
 /***/ }),
 
+/***/ "./src/assets/scss/index.scss":
+/*!************************************!*\
+  !*** ./src/assets/scss/index.scss ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./node_modules/webfontloader/webfontloader.js":
 /*!*****************************************************!*\
   !*** ./node_modules/webfontloader/webfontloader.js ***!
@@ -9173,17 +9186,19 @@ var __webpack_exports__ = {};
   !*** ./src/assets/js/index.js ***!
   \********************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var webfontloader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! webfontloader */ "./node_modules/webfontloader/webfontloader.js");
-/* harmony import */ var webfontloader__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(webfontloader__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _device__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./device */ "./src/assets/js/device.js");
-/* harmony import */ var kapla__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! kapla */ "./node_modules/kapla/dist/kapla.min.js");
-/* harmony import */ var kapla__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(kapla__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app */ "./src/assets/js/app.js");
-/* harmony import */ var _events__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./events */ "./src/assets/js/events/index.js");
-/* harmony import */ var _dev__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./dev */ "./src/assets/js/dev/index.js");
-/* harmony import */ var _scrollbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./scrollbar */ "./src/assets/js/scrollbar.js");
-/* harmony import */ var _fixVh__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./fixVh */ "./src/assets/js/fixVh.js");
-// WebFontoader
+/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/index.scss */ "./src/assets/scss/index.scss");
+/* harmony import */ var webfontloader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! webfontloader */ "./node_modules/webfontloader/webfontloader.js");
+/* harmony import */ var webfontloader__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(webfontloader__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _device__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./device */ "./src/assets/js/device.js");
+/* harmony import */ var kapla__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! kapla */ "./node_modules/kapla/dist/kapla.min.js");
+/* harmony import */ var kapla__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(kapla__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app */ "./src/assets/js/app.js");
+/* harmony import */ var _events__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./events */ "./src/assets/js/events/index.js");
+/* harmony import */ var _dev__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dev */ "./src/assets/js/dev/index.js");
+/* harmony import */ var _scrollbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./scrollbar */ "./src/assets/js/scrollbar.js");
+/* harmony import */ var _fixVh__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./fixVh */ "./src/assets/js/fixVh.js");
+ // WebFontoader
+
 
 
 __webpack_require__(/*! ./globals.js */ "./src/assets/js/globals.js");
@@ -9196,8 +9211,8 @@ __webpack_require__(/*! ./globals.js */ "./src/assets/js/globals.js");
 
 
 
-_fixVh__WEBPACK_IMPORTED_MODULE_7__["default"].updateAll();
-new _dev__WEBPACK_IMPORTED_MODULE_5__.DevGrid();
+_fixVh__WEBPACK_IMPORTED_MODULE_8__["default"].updateAll();
+new _dev__WEBPACK_IMPORTED_MODULE_6__.DevGrid();
 
 class Main {
   static start() {
@@ -9219,9 +9234,9 @@ class Main {
     // kapla.use('raf', raf)
 
 
-    _app__WEBPACK_IMPORTED_MODULE_3__["default"].use('resize', _events__WEBPACK_IMPORTED_MODULE_4__.resize);
-    _app__WEBPACK_IMPORTED_MODULE_3__["default"].use('scroll', scroll);
-    _app__WEBPACK_IMPORTED_MODULE_3__["default"].load((0,kapla__WEBPACK_IMPORTED_MODULE_2__.autoLoad)(context));
+    _app__WEBPACK_IMPORTED_MODULE_4__["default"].use('resize', _events__WEBPACK_IMPORTED_MODULE_5__.resize);
+    _app__WEBPACK_IMPORTED_MODULE_4__["default"].use('scroll', scroll);
+    _app__WEBPACK_IMPORTED_MODULE_4__["default"].load((0,kapla__WEBPACK_IMPORTED_MODULE_3__.autoLoad)(context));
     setTimeout(() => {
       document.documentElement.classList.add('is-ready');
     }, 50);
